@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.pizza{
+    background-image: url('../images/IMG_8784.png');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    border-top: 40px solid #af2024;
+    position: relative;
+}
+.square{
+    position: fixed;
+    right: 0px;
+    top: 261px;
+    z-index: 1;
+}
+.square .red{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #850409;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+.square .red:before{
+    content: "\f39e";
+    font-family: Font Awesome\ 5 Brands;
+    display: inline-block;
+}
+.square .red:last-of-type{
+    background-color: #98161b;
+}
+.square .red:last-of-type:before{
+    content: "\f099";
+}
+.pizza .block_logo{
+    max-width: 964px;
+    margin: auto;
+}
+.pizza .block_logo img{
+    position: relative;
+    top: 31px;
+}
+.pizza .container{
+    max-width: 710px;
+    margin: auto;
+    z-index: 2;
+    position: relative;
+    bottom: -70px;
+}
+.pizza .container .top_block{
+    position: relative;
+    background-color: #98161b;
+    padding-top: 27px;
+    padding-bottom: 28px;
+    top: 33px;
+    z-index: 2;
+}
+.pizza .container .top_block h2{
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    color: white;
+    margin-left: 18px;
+}
+.pizza .container .central_block{
+    position: relative;
+    background-color: #ffffff;
+    padding-top: 63px;
+    padding-bottom: 128px;
+}
+.pizza .container .central_block .video{
+    background-color: #e7e7e7;
+    position: relative;
+    top: 63px;
+    max-width: 567px;
+    margin: auto;
+    padding-top: 144px;
+    padding-bottom: 149px;
+}
+.video__play-triangle{
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    margin-left: 282.5px;
+    border-style: solid;
+    border-width: 22px 0 22px 37px;
+    border-color: transparent #98161b;
+}
+.container .text{
+    max-width: 567px;
+    margin: auto;
+    position: relative;
+    top: 90px;
+}
+
+.container .text h4, .container .text span{
+    font-size: 13px;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    color: #98161b;
+    display: inline-block;
+    margin-bottom: 17px;
+}
+.container .text img{
+    display: block;
+    margin-bottom: 17px;
+}
+.container .text span{
+    color: #7d7d7d;
+}
+.container .text p{
+    font-size: 12px;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    color: #98161b;
+    line-height: 18px;
+}
+footer{
+    bottom: 0;
+    left: 0;
+    position: relative;
+    width: 100%;
+    background-color: #000000;
+    border-top: 40px solid #3f0002;
+    height: 451px;
+}
